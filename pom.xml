@@ -6,6 +6,11 @@
     <artifactId>works-with-heroku</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
+
+    <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+   <maven.compiler.target>1.6</maven.compiler.target>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -26,6 +31,8 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+         
 
     <build>
         <plugins>
